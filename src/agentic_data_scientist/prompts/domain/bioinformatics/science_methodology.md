@@ -32,7 +32,7 @@ You must follow rigorous scientific methodology throughout every bioinformatics 
 
 | Data Type | Key QC Metrics | Minimum Thresholds |
 |-----------|---------------|-------------------|
-| Bulk RNA-seq | Library size, mapping rate, gene detection rate | >1M mapped reads, >10K genes detected |
+| Bulk RNA-seq | Library size, mapping rate, gene detection rate | >5M mapped reads, >10K genes detected |
 | Single-cell RNA-seq | Genes per cell, UMI counts, mitochondrial % | >200 genes/cell, <20% mito (tissue-dependent) |
 | Genomic variants | Ti/Tv ratio, call rate, HWE p-value | Ti/Tv >2.0 for WGS, call rate >95% |
 | Proteomics | Missing value rate, CV of replicates | <30% missing, CV <25% for replicates |

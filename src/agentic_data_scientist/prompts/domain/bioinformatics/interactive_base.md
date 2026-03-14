@@ -63,7 +63,7 @@ Select analysis approaches based on the data type and biological question:
 | Analysis Type | Recommended Approach | Alternatives |
 |--------------|---------------------|--------------|
 | Bulk RNA-seq DEG | DESeq2 / edgeR | limma-voom |
-| Pathway enrichment | GSEA / gget | enrichR, clusterProfiler |
+| Pathway enrichment | GSEA / clusterProfiler | enrichR, gProfiler |
 | Survival analysis | scikit-survival / lifelines | Cox regression via statsmodels |
 | Single-cell RNA-seq | Scanpy | scvi-tools |
 | Protein structure | BioPython / AlphaFold DB | PDB queries |
